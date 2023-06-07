@@ -1,0 +1,15 @@
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.csproj.AssemblyReference.cache
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.AssemblyInfoInputs.cache
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.AssemblyInfo.cs
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.csproj.CoreCompileInputs.cache
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/bin/Debug/net6.0/ValidAnagram242
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/bin/Debug/net6.0/ValidAnagram242.deps.json
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/bin/Debug/net6.0/ValidAnagram242.runtimeconfig.json
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/bin/Debug/net6.0/ValidAnagram242.dll
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/bin/Debug/net6.0/ValidAnagram242.pdb
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.dll
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/refint/ValidAnagram242.dll
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.pdb
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ValidAnagram242.genruntimeconfig.cache
+/Users/antor/Projects/LeetCode/ValidAnagram242/ValidAnagram242/obj/Debug/net6.0/ref/ValidAnagram242.dll

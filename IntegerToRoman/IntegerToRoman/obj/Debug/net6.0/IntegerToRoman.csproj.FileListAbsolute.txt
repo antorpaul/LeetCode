@@ -1,0 +1,15 @@
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.csproj.AssemblyReference.cache
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.AssemblyInfoInputs.cache
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.AssemblyInfo.cs
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.csproj.CoreCompileInputs.cache
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/bin/Debug/net6.0/IntegerToRoman
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/bin/Debug/net6.0/IntegerToRoman.deps.json
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/bin/Debug/net6.0/IntegerToRoman.runtimeconfig.json
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/bin/Debug/net6.0/IntegerToRoman.dll
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/bin/Debug/net6.0/IntegerToRoman.pdb
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.dll
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/refint/IntegerToRoman.dll
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.pdb
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/IntegerToRoman.genruntimeconfig.cache
+/Users/antor/Projects/LeetCode/IntegerToRoman/IntegerToRoman/obj/Debug/net6.0/ref/IntegerToRoman.dll

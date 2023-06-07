@@ -1,0 +1,15 @@
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.csproj.AssemblyReference.cache
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.AssemblyInfoInputs.cache
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.AssemblyInfo.cs
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.csproj.CoreCompileInputs.cache
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/bin/Debug/net6.0/ValidSudoku
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/bin/Debug/net6.0/ValidSudoku.deps.json
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/bin/Debug/net6.0/ValidSudoku.runtimeconfig.json
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/bin/Debug/net6.0/ValidSudoku.dll
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/bin/Debug/net6.0/ValidSudoku.pdb
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.dll
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/refint/ValidSudoku.dll
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.pdb
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ValidSudoku.genruntimeconfig.cache
+/Users/antor/Projects/LeetCode/ValidSudoku/ValidSudoku/obj/Debug/net6.0/ref/ValidSudoku.dll

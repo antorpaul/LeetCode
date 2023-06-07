@@ -1,0 +1,15 @@
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.deps.json
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.runtimeconfig.json
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.dll
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.pdb
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.AssemblyReference.cache
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfoInputs.cache
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfo.cs
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.CoreCompileInputs.cache
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.dll
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/refint/BinarySearch.dll
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.pdb
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.genruntimeconfig.cache
+/Users/antor/Projects/LeetCode/BinarySearch/BinarySearch/obj/Debug/net6.0/ref/BinarySearch.dll

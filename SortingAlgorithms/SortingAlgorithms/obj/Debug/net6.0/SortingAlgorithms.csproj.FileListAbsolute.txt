@@ -1,0 +1,15 @@
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/bin/Debug/net6.0/SortingAlgorithms
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/bin/Debug/net6.0/SortingAlgorithms.deps.json
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/bin/Debug/net6.0/SortingAlgorithms.runtimeconfig.json
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/bin/Debug/net6.0/SortingAlgorithms.dll
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/bin/Debug/net6.0/SortingAlgorithms.pdb
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.csproj.AssemblyReference.cache
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.AssemblyInfoInputs.cache
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.AssemblyInfo.cs
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.csproj.CoreCompileInputs.cache
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.dll
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/refint/SortingAlgorithms.dll
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.pdb
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/SortingAlgorithms.genruntimeconfig.cache
+/Users/antor/Projects/LeetCode/SortingAlgorithms/SortingAlgorithms/obj/Debug/net6.0/ref/SortingAlgorithms.dll
