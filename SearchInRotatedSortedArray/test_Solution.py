@@ -47,3 +47,10 @@ class test_Solution(unittest.TestCase):
 
         expected: int = 1
         self.assertEqual(self.sol.search(nums, target), expected)
+    
+    def test_CaseSeven(self):
+        nums: list = [3, 1]
+        target: int = 0
+
+        expected: int = -1
+        self.assertEqual(self.sol.search(nums, target), expected)
