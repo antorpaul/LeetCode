@@ -11,12 +11,16 @@ class ListNode:
     
     def createList(array: list):
         if len(array) >= 1:
-            head: ListNode = ListNode(array[0])
-            currPtr = head
-            for i in range(1, len(array)):
-                node = ListNode(array[i])
-                currPtr.next = node
-                currPtr = currPtr.next
+            head: ListNode = None
+            currPtr = None
+            for i in range(0, len(array)):
+                newNode = ListNode(array[i])
+                if not head:
+                    head = newNode
+                    currPtr = head
+                else:
+                    currPtr.next = newNode
+                    currPtr = currPtr.next
             return head
         return None
 
@@ -24,32 +28,36 @@ class ListNode:
 class Solution:
     def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
         head = None
+        tail = None
 
-        if list1 != None:
-            # populate from list1 into result
-            currPtr = ListNode(list1.val)
-            head = currPtr.next
-            node = list1
-            while node != None:
-                newNode = ListNode(node.val)
-                currPtr.next = newNode
+        if list1 == None and list2 == None:
+            return head
+        
+        l1 = list1
+        l2 = list2
 
-                node = node.next
-                currPtr = currPtr.next
-
-        if list2 != None:
-            # populate from list2 into result
-            # make sure sorted
-            list2Ptr = ListNode(list2.val)
-            if head == None:
-                head = list2Ptr
+        while l1 or l2:
+            newNode = ListNode()
+            if l1 and l2:
+                if l1.val < l2.val:
+                    newNode.val = l1.val
+                    l1 = l1.next
+                else:
+                    newNode.val = l2.val
+                    l2 = l2.next
+            elif l1:
+                newNode.val = l1.val
+                l1 = l1.next
+            elif l2:
+                newNode.val = l2.val
+                l2 = l2.next
             
-            resPtr = head
-            while resPtr != None:
-                if resPtr.val < list2Ptr.val:
-                    newNode = ListNode(list2Ptr.val)
-                    newNode.next = resPtr
-                    resPtr = newNode
-            
+            if not head:
+                head = newNode
+                tail = head
+            else:
+                tail.next = newNode
+                tail = tail.next
+
         return head
             
