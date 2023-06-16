@@ -29,24 +29,26 @@ class Solution:
         """
             Do not return anything, modify head in-place instead.
         """
-        switchList: dict[int, ListNode] = {}
-
+        # populate a stack that contains the list reversed
+        nodeStack: list[ListNode] = []
         node: ListNode = head
-        i: int = 0
+        length: int = 0
         while node != None:
+            nodeStack.insert(0, node)
+            node = node.next
+            length += 1
+        
+        # go through list and modify
+        node = head
+        i: int = 0
+        while i < length:
             if i % 2 == 1:
-                switchList[i] = node
+                tmp = ListNode(node.val, node.next)
+                node.val = nodeStack.pop(0).val
+                node.next = tmp
             
+            if i == length - 1:
+                node.next = None
+
             node = node.next
             i += 1
-        
-        node = head
-        i = 0
-        while node != None:
-            if i % 2 == 1:
-                node.next = switchList[i]
-            
-            node = node.next
-        
-        head = node
-        print('something')
