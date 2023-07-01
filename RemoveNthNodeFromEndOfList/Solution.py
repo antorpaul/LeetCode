@@ -41,28 +41,20 @@ class ListNode:
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        current: ListNode = head
-        previous: ListNode = None
-        remove: ListNode = None
-        trail: int = 0
-        i: int = 0
+        temp: ListNode = ListNode(0, head)
+        first: ListNode = head
+        second: ListNode = temp
 
-        while current:
-            previous = remove
-            if i - n == 0:
-                remove = current
-                trail = 0
-            if i > n and trail == n:
-                remove = remove.next
-                trail = 0
+        # give the first pointer a headstart
+        for i in range(0, n):
+            first = first.next
 
-            i += 1
-            trail += 1
-            current = current.next
+        while first:
+            first = first.next
+            second = second.next
+        
+        # remove the node from lagging pointer
+        second.next = second.next.next
 
-        if remove and remove.next:
-            previous.next = remove.next
-        elif remove and previous:
-            previous.next = None
-        else:
-            head = None
+        # return the head
+        return temp.next

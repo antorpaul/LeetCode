@@ -55,9 +55,9 @@ class test_Solution(unittest.TestCase):
         expected: list[int] = [1,2,3,5]
         
         # then
-        self.sol.removeNthFromEnd(head, 2)
+        result:ListNode = self.sol.removeNthFromEnd(head, 2)
 
-        self.compareLists(head, expected)
+        self.compareLists(result, expected)
 
     def test_CaseTwo(self):
         # given
@@ -65,9 +65,9 @@ class test_Solution(unittest.TestCase):
         expected: list[int] = []
 
         # then
-        self.sol.removeNthFromEnd(head, 1)
+        result:ListNode = self.sol.removeNthFromEnd(head, 1)
 
-        self.compareLists(head, expected)
+        self.compareLists(result, expected)
 
     def test_CaseThree(self):
         # given
@@ -75,6 +75,6 @@ class test_Solution(unittest.TestCase):
         expected: list[int] = [1]
 
         # then
-        self.sol.removeNthFromEnd(head, 1)
+        result:ListNode = self.sol.removeNthFromEnd(head, 1)
 
-        self.compareLists(head, expected)
+        self.compareLists(result, expected)
