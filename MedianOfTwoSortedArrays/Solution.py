@@ -30,32 +30,23 @@ nums2.length == n
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-      # Initial Solution takeaways...
-      # - While loop does not have a stop condition so it keeps going indefinitely
-      # - Lack of clarity in the logic... cluttered and hard to understand
-      # Partition the array into left and right portions
-      total_len = len(nums2) + len(nums1)
-      half = total_len // 2
-      
-      i = 0
-      j = 0
-      while j < len(nums2) and j < half//2:
-         j += 1
-      i = half - j
+        total_size = len(nums1) + len(nums2)
+        half = total_size//2
 
-      while i < len(nums1) and j < len(nums2):
-         if i+1 < len(nums1):
-            if nums1[i] <= nums1[i+1]:
-               continue
+        l = 0
+        r = len(nums2) - 1
+
+        # feels like i should use binary search here
+        while l <= r:
+            m = (l + r)//2
+            ind = (half - 1) - (m+1)
+            if nums2[m] < nums1[ind+1]:
+                if total_size % 2 != 0:
+                    return min(nums1[ind], nums2[m+1])
+                else:
+                    return (nums1[ind] + nums2[m+1])/2
             else:
-               j -= 1
-         if j+1 < len(nums2):
-            if nums2[j] <= nums2[j+1]:
-               continue
-            else:
-               i -= 1
-      
-      if total_len % 2 != 0:
-         return math.min(nums1[i], nums2[j])
-      else:
-         return (nums1[i] + nums2[i])/2.0
+                r -= 1
+        return 0
+            
+
