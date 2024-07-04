@@ -1,4 +1,5 @@
 import math
+import statistics
 from typing import List
 from math import ceil
 from timeout_decorator import timeout, TimeoutError
@@ -33,8 +34,14 @@ class Solution:
     # @timeout(10)
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         total_size = len(nums1) + len(nums2)
-        half = total_size//2
 
+        if len(nums2) == 0:
+            return statistics.median(nums1)
+        
+        if len(nums1) == 0:
+            return statistics.median(nums2)
+        
+        half = total_size//2
         l = 0
         r = len(nums2) - 1
         m = (l + r)//2
@@ -57,21 +64,31 @@ class Solution:
         # lmax => max value for the left partition
         # rmax => max value for the right partition
         # important for out of bounds checking
-        n1_lmax = -1 * math.inf
-        n2_lmax = -1 * math.inf
-        n2_rmin = math.inf
-        n1_rmin = math.inf
+        n1_lmax = -1 * math.inf # last number of the left partition from nums1
+        n2_lmax = -1 * math.inf # last number of the left partition from nums2
+        n1_rmin = math.inf # first number of the right partition from nums1
+        n2_rmin = math.inf # first number of the right partition from nums2
 
         while r >= l:
-            if n+1 < len(nums2):
-                n2_rmin = nums2[n+1]
-            if m+1 < len(nums1):
-                n1_rmin = nums1[m+1]
-            if n > 0:
-                n2_lmax = nums2[n]
-            if m > 0:
-                n1_lmax = nums1[m]
-                
+            if m+1 < len(nums2) and len(nums2) > 0:
+                n2_rmin = nums2[m+1]
+            else:
+                n2_rmin = math.inf
+            
+            if n+1 < len(nums1) and len(nums1) > 0:
+                n1_rmin = nums1[n+1]
+            else:
+                n1_rmin = math.inf
+
+            if len(nums1) > 0 and n < len(nums1) and n >= 0:
+                n1_lmax = nums1[n]
+            else:
+                n1_lmax = -1 * math.inf
+            if len(nums2) > 0 and m < len(nums2) and m >= 0:
+                n2_lmax = nums2[m]
+            else:
+                n2_lmax = -1 * math.inf
+                                    
             if n2_lmax > n1_rmin:
                 m -= 1
                 n += 1
@@ -84,7 +101,5 @@ class Solution:
             if total_size % 2 == 0:
                 return (max(n2_lmax, n1_lmax) + min(n2_rmin, n1_rmin))/2
             else: 
-                if m+1 > len(nums2) - 1 or n+1 > len(nums1) - 1:
-                    return min(n1_lmax, n2_lmax)
-                else:
-                    return min(n2_rmin, n1_rmin) 
+                return min(n2_rmin, n1_rmin) 
+            

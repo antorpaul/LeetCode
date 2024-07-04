@@ -29,3 +29,19 @@ class test_Solution(unittest.TestCase):
     nums2 = [1,2,3,4,5]
     result = self.sol.findMedianSortedArrays(nums1, nums2)
     self.assertEqual(result, 4)
+  
+  def test_CanHandleEmpty(self):
+    nums1 = []
+    nums2 = [1]
+    result = self.sol.findMedianSortedArrays(nums1, nums2)
+    self.assertEqual(result, 1)
+  
+  def test_CanHandle2042(self):
+    nums1 = [1]
+    nums2 = [2,3]
+    result = self.sol.findMedianSortedArrays(nums1, nums2)
+    self.assertEqual(result, 2)
+
+  def test_array(self):
+    nums1 = []
+    self.assertEqual(len(nums1), 0)
