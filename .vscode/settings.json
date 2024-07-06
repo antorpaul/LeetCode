@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./MedianOfTwoSortedArrays",
+        "./IntersectionOfTwoLinkedLists",
         "-p",
         "test_*.py"
     ],
