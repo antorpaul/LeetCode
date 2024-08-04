@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./IntersectionOfTwoLinkedLists",
+        "./NextPermutation",
         "-p",
         "test_*.py"
     ],
