@@ -6,36 +6,32 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        i = 0
-        j = len(nums) - 1
-        bestSwap = -1
-        bestSwap_i = -1
-        bestSwap_j = -1
+        n = len(nums)
+        if n <= 1:
+            return
 
-        while j >= i:
-            currentSwap = Solution.evaluateSwap(nums, i, j)
-            if currentSwap > 0:
-                if bestSwap < 0:
-                    bestSwap = currentSwap
-                bestSwap = min(currentSwap, bestSwap)
-                if bestSwap == currentSwap:
-                    bestSwap_i = i
-                    bestSwap_j = j
-            if i < j:
-                i += 1
-            else:
-                if bestSwap > 0:
-                    break
-                j -= 1
-            
-        if bestSwap_i == -1 or bestSwap_j == -1:
-            nums.sort()
-        else:
-            temp = nums[bestSwap_j]
-            nums[bestSwap_j] = nums[bestSwap_i]
-            nums[bestSwap_i] = temp
-            nums[bestSwap_i+1:] = sorted(nums[bestSwap_i+1:]) 
+        # find the first decreasing element from the right
+        fd_index = -1
+        for i in range(n - 2, -1, -1):
+            if nums[i] < nums[i + 1]:
+                fd_index = i
+                break
 
-    
-    def evaluateSwap(nums: List[int], i, j):
-        return math.pow(10, j - i) * (nums[j] - nums[i])
+        # if no such element is found, the array is in descending order
+        if fd_index == -1:
+            nums.reverse()
+            return
+
+        # find the smallest element to the right of fd_index that is larger than nums[fd_index]
+        for i in range(n - 1, fd_index, -1):
+            if nums[i] > nums[fd_index]:
+                # swapping elements can be done via tuple unpacking
+                # since python internally creates a tuple (nums[i], nums[fd_index])
+                # and then unpacks it so there is no need for a temp
+                nums[fd_index], nums[i] = nums[i], nums[fd_index]
+                break
+
+        # Reverse the subarray from fd_index + 1 to the end
+        nums[fd_index + 1:] = reversed(nums[fd_index + 1:])
+
+
