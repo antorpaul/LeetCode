@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./NextPermutation",
+        "./BestTimeToBuyAndSellStockWithCooldown",
         "-p",
         "test_*.py"
     ],
